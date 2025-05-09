@@ -9,14 +9,15 @@ The goal of this project is to demonstrate a simple CRUD (Create, Read, Update, 
 ## Features
 
 - Add new students with `firstname`, `lastname`, and `studentid`
-- Store student data in a MySQL database
-- Test the API with tools like Postman
+- Store student data in a MySQL database  : (![MySQL](./MySql.png) )
+- - Test the API with tools like Postman
 
 ## How to Use
 
 1. Run the Spring Boot application.
 2. Send a `POST` request to the following endpoint: http://localhost:8080/api/students/add
 
+![Postman](./Postman.png)
 
  Example JSON body:
 ```json
@@ -26,6 +27,6 @@ The goal of this project is to demonstrate a simple CRUD (Create, Read, Update, 
   "studentid": "75867"
 }
 
-On success, the response will be: Student added successfully!
+ Student added successfully!
 
 
