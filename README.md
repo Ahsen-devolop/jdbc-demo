@@ -19,13 +19,3 @@ The goal of this project is to demonstrate a simple CRUD (Create, Read, Update, 
 1. Run the Spring Boot application.
 2. Send a `POST` request to: http://localhost:8080/api/students/add
 
-
-### Example JSON body:
-```json
-{
-  "firstname": "John",
-  "lastname": "Kowallski",
-  "studentid": "75867"
-}
-
-Student added successfully!
