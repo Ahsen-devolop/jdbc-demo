@@ -4,22 +4,23 @@ This is a basic Spring Boot REST API that allows users to register students by s
 
 ## Purpose
 
-The goal of this project is to demonstrate a simple CRUD (Create, Read, Update, Delete) functionality using Spring Boot and JDBC with MySQL. It is useful as a starting point for understanding how to connect a Java backend application with a relational database.
+The goal of this project is to demonstrate a simple CRUD (Create, Read, Update, Delete) functionality using Spring Boot and JDBC with MySQL. It serves as a learning project for integrating Java applications with relational databases.
 
 ## Features
 
 - Add new students with `firstname`, `lastname`, and `studentid`
-- Store student data in a MySQL database  : (![MySQL](./MySql.png) )
-- - Test the API with tools like Postman
+- Store student data in a MySQL database  
+  ![MySQL](./MySql.png)
+- Test the API using Postman  
+  ![Postman](./Postman.png)
 
 ## How to Use
 
 1. Run the Spring Boot application.
-2. Send a `POST` request to the following endpoint: http://localhost:8080/api/students/add
+2. Send a `POST` request to: http://localhost:8080/api/students/add
 
-![Postman](./Postman.png)
 
- Example JSON body:
+### Example JSON body:
 ```json
 {
   "firstname": "John",
@@ -27,6 +28,4 @@ The goal of this project is to demonstrate a simple CRUD (Create, Read, Update, 
   "studentid": "75867"
 }
 
- Student added successfully!
-
-
+Student added successfully!
